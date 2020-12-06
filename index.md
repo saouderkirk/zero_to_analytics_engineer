@@ -12,10 +12,10 @@ The best introduction is from the one, the only, [Michael Kaminsky](https://kami
 
 There, he says the job of the Analytics Engineer is to:
 
->  * Write production-quality ELT code with an eye towards performance and maintainability
->  * Coach analysts and data scientists on software engineering best practices (e.g., building testing suites and CI pipelines)
->  * Build software tools that help data scientists and analysts work more efficiently (e.g., writing an internal R or Python tooling package for analysts to use)
->  * Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)
+  * *Write production-quality ELT code with an eye towards performance and maintainability*
+  * *Coach analysts and data scientists on software engineering best practices (e.g., building testing suites and CI pipelines)*
+  * *Build software tools that help data scientists and analysts work more efficiently (e.g., writing an internal R or Python tooling package for analysts to use)*
+  * *Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)*
 
 This serves as a really _excellent_ structure that we can use to build our curriculum around! I think broadly we'll want to think about the skills we need to be a market-competitive Analytics Engineer as falling into two flavors; **learning how to do the work** and **learning how to work together**.
 
@@ -43,7 +43,7 @@ You need to be good at [SQL](https://en.wikipedia.org/wiki/SQL) - there's no get
 
 My first exposure to SQL was via pretty basic queries against WordPress databases via phpMyAdmin - suboptimal! - and when I first started dedicating myself more to the data profession, I got a lot of value out of [SQL Zoo](https://sqlzoo.net/) - it's still a totally solid place to start, but I think I'd be more likely to recommend something like [Khan Academy's SQL course](https://www.khanacademy.org/computing/computer-programming/sql) - it's free, and it covers all of the core concepts. If you already have a membership somewhere like Code Academy or Datacamp or something like that, I'm sure that's a fine way to get your feet wet as well.
 
-> *(gut check here - giving the above reading and first-steps-into-SQL the appropriate time, especially if you're doing this nights-and-weekends, is probably closer to two months than two weeks. Remember, if you plant tomatoes, you don't keep digging up the seeds to check on them, right? Give yourself the time you need. You're **growing**!)*
+*(gut check here - giving the above reading and first-steps-into-SQL the appropriate time, especially if you're doing this nights-and-weekends, is probably closer to two months than two weeks. Remember, if you plant tomatoes, you don't keep digging up the seeds to check on them, right? Give yourself the time you need. You're **growing**!)*
 
 Two totally essential concepts that you need to graduate from beginner SQL wrangler to Analytics Engineer are **window functions** and **common table expressions**
 
