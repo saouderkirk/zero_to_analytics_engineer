@@ -25,9 +25,9 @@ Before we can do either of those things, we need to start from the beginning: th
 
 As we dip a toe into this kind of work, we're going to come across a lot of talk about ELT and ETL - these are in some ways, parallel and competing visions of the way that data should move around and become useful within an organization. It's worth reading a few different takes on the difference:
 
-[Talend's Blog: ETL vs ELT](https://www.talend.com/resources/elt-vs-etl/)
-[Panoply.io: ETL vs. ELT](https://blog.panoply.io/etl-vs-elt-the-difference-is-in-the-how)
-[Fivetran: ETL vs. ELT](https://fivetran.com/blog/etl-vs-elt)
+* [Talend's Blog: ETL vs ELT](https://www.talend.com/resources/elt-vs-etl/)
+* [Panoply.io: ETL vs. ELT](https://blog.panoply.io/etl-vs-elt-the-difference-is-in-the-how)
+* [Fivetran: ETL vs. ELT](https://fivetran.com/blog/etl-vs-elt)
 
 Broadly, the big difference is, when do we transform our data from its raw format? Before it enters the warehouse? Or, within the warehouse itself? Historically, we'd be motivated to Transform (that's the **T**!) before we pipe data into the warehouse - with modern solutions organizations are finding it easier and more effective to transform within the warehouse - or, after Loading. 
 
@@ -42,6 +42,8 @@ You need to be good at [SQL](https://en.wikipedia.org/wiki/SQL) - there's no get
 ### Starting with SQL 
 
 My first exposure to SQL was via pretty basic queries against WordPress databases via phpMyAdmin - suboptimal! - and when I first started dedicating myself more to the data profession, I got a lot of value out of [SQL Zoo](https://sqlzoo.net/) - it's still a totally solid place to start, but I think I'd be more likely to recommend something like [Khan Academy's SQL course](https://www.khanacademy.org/computing/computer-programming/sql) - it's free, and it covers all of the core concepts. If you already have a membership somewhere like Code Academy or Datacamp or something like that, I'm sure that's a fine way to get your feet wet as well.
+
+> *(gut check here - giving the above reading and first-steps-into-SQL the appropriate time, especially if you're doing this nights-and-weekends, is probably closer to two months than two weeks. Remember, if you plant tomatoes, you don't keep digging up the seeds to check on them, right? Give yourself the time you need. You're **growing**!)*
 
 Two totally essential concepts that you need to graduate from beginner SQL wrangler to Analytics Engineer are **window functions** and **common table expressions**
 
